@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova infinity</title>
+</head>
+<body>
+    <h2>Preencha suas informações:</h2>
+    <form action="" method="get">
+        <section class="informacoes">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input name="Nome" type="text" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input name="Email" type="email" placeholder="Digite seu email">
+        </div>
+        <div>
+            <label for="Senha">Senha:</label>
+            <input name="Senha" type="password" placeholder="Digite sua senha">
+        </div>
+        </section>
+        <h3>Selecione sua idade:</h3>
+        <div class="idades"> 
+            <input type="checkbox" name="idade-12">
+            <label for="idade-12">-12</label><br>
+            <input type="checkbox" name="idade12a18">
+            <label for="idade12a18">12 a 18</label><br>
+            <input type="checkbox" name="idade19a25">
+            <label for="idade19a25">19 a 25</label><br>
+            <input type="checkbox" name="idade26a39">
+            <label for="idade26a39">26 a 39</label><br>
+            <input type="checkbox" name="idade+40">
+            <label for="idade+40">+40</label><br>
+        </div>
+        <div>
+            <h3>Selecione seu Genero:</h3>
+            <input type="radio" name="Homem">
+            <label for="Homem">Homem</label><br>
+            <input type="radio" name="Mulher">
+            <label for="Mulher">Mulher</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </div>
+    </form>
+</body>
+<style>
+    .informacoes input{
+        margin-bottom: 4px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+</style>
+</html>
